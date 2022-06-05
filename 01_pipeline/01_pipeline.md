@@ -4,7 +4,10 @@
 
 ![pipeline](../images/01_pipeline/01_pipeline.png)
 
-### [목차](../README.md) 　　　　　　　　　　　　　　　　　　　　　 다음 장: [버텍스 셰이더]()
+
+|[목차](../README.md)|이전 장: |다음 장: 버텍스 셰이더|
+|:--|--:|--:|
+
 
 ## 출처
 http://www.lighthouse3d.com/tutorials/glsl-tutorial/pipeline33/
