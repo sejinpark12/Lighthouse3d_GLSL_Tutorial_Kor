@@ -25,7 +25,7 @@ GLSL tutorial의 업데이트 버전입니다. 여기서는 core 버전만을 �
 
 ### 그래픽스 파이프라인
   - [간략한 파이프라인 다이어그램](./01_pipeline/01_pipeline.md)
-  - 버텍스 셰이더
+  - [버텍스 셰이더](./02_vertex_shader/02_vertex_shader.md)
   - 프리미티브 어셈블리
   - 테셀레이션 셰이더
   - 지오메트리 셰이더
