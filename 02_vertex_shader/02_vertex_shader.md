@@ -3,7 +3,7 @@
 |[목차](../README.md)|이전 장: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md)|다음 장: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md)|
 |:--|--:|--:|
 
-![vertex_shader](../images/02_vertex_shader/02_vertex_shader.png)
+<p align="center"><img src="../images/02_vertex_shader/02_vertex_shader.png"></p>
 
 버텍스 셰이더는 한 번에 한 버텍스 씩, 각 버텍스에서 실행됩니다. 셰이더에는 그래픽 프리미티브를 구성하는 다른 버텍스에 대한 정보가 없으며, 버텍스가 속한 프리미티브의 타입이 무엇인지 모릅니다. 셰이더는 하나의 입력 버텍스 당 하나의 출력 버텍스를 내보냅니다.
 각 버텍스는 사용자가 정의한 입력 속성(input attribute) 세트를 가집니다. 예를 들어, 위치, 법선 벡터, 텍스쳐 좌표와 같은 것들이 있습니다. 또한 버텍스 셰이더에서는 uniform 변수에 접근할 수 있습니다. uniform 변수는 드로우콜 동안 모든 버텍스에서 읽기 전용 전역 변수처럼 동작합니다.
