@@ -1,6 +1,6 @@
 # GLSL Tutorial - 버텍스 셰이더
 
-|[목차](../README.md)|이전 장: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md)|다음 장: 프리미티브 어셈블리|
+|[목차](../README.md)|이전 장: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md)|다음 장: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md)|
 |:--|--:|--:|
 
 ![vertex_shader](../images/02_vertex_shader/02_vertex_shader.png)
@@ -74,7 +74,7 @@ void main()
 
 버텍스 데이터가 strip이 아닌 경우, strip 또는 strip 세트로 변환될 수 있습니다. NVIDIA에서 이와 같은 처리를 수행하는 NVTriStrip라는 툴을 만들었습니다. 이 툴은 인덱스의 배열을 받고 가능한 한 큰 strip의 생성을 시도합니다. 다른 접근법으로, Tom Forsyth 알고리즘(LRU 알고리즘을 사용하는 버텍스 캐시 기반)은 GL_TRIANGLES 모드를 유지한 채로 히트를 증가시키기 위해 인덱스 데이터를 재구성합니다. Tootle(Triangle Order Optimization Tool(삼각형 순서 최적화 툴))는 모델 최적화, 픽셀 오버드로우 감소, post-transform 캐시와 vertex prefetch 캐시 히트를 증가시키는 AMD 툴입니다. 후자의 개선은 버텍스 데이터 자체를 재구성하여 삼각형의 버텍스가 메모리 상에서 서로 가깝게하여 달성됩니다. Adrian Stone은 여러 알고리즘에 대해 논의하고 테스트한 [글](http://gameangst.com/?p=9)을 작성했습니다. Ignacio Castaño는 그리드에 주목하여 [글](http://www.ludicon.com/castano/blog/2009/02/optimal-grid-rendering/)을 썼습니다.
 
-|[목차](../README.md)|이전 장: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md)|다음 장: 프리미티브 어셈블리|
+|[목차](../README.md)|이전 장: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md)|다음 장: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md)|
 |:--|--:|--:|
 
 
