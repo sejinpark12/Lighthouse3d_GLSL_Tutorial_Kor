@@ -1,7 +1,7 @@
 # GLSL Tutorial - 프리미티브 어셈블리
 
-|[목차](../README.md)|이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md)|다음: 테셀레이션|
-|:--|--:|--:|
+| [목차](../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
+| :------------------- | -------------------------------------------------------------: | --------------------------------------------------------: |
 
 <p align="center"><img src="../images/03_primitive_assembly/03_primitive_assembly.png"></p>
 
@@ -19,20 +19,20 @@
 
 가능한 입력 연결성 정보 설정, 생성된 출력, 이를 사용하는 셰이더를 다음 표에서 보여줍니다.
 
-|glDraw 명령어|출력 프리미티브|사용 셰이더|
-|--|--|--|
-|`GL_POINTS`|`points`|geometry; fragment|
-|`GL_LINES`|`lines`|geometry; fragment|
-|`GL_LINE_STRIP`|`lines`|geometry; fragment|
-|`GL_LINE_LOOP`|`lines`|geometry; fragment|
-|`GL_LINES_ADJACENCY`|`lines_adjacency`|geometry|
-|`GL_LINE_STRIP_ADJACENCY`|`lines_adjacency`|geometry|
-|`GL_TRIANGLES`|`triangles`|geometry; fragment|
-|`GL_TRIANGLE_STRIP`|`triangles`|geometry; fragment|
-|`GL_TRIANGLE_FAN`|`triangles`|geometry; fragment|
-|`GL_TRIANGLES_ADJACENCY`|`triangles_adjacency`|geometry|
-|`GL_TRIANGLE_STRIP_ADJACENCY`|`triangles_adjacency`|geometry|
-|`GL_PATCHES`|`patches`|tesellation control|
+| glDraw 명령어                 | 출력 프리미티브       | 사용 셰이더         |
+| ----------------------------- | --------------------- | ------------------- |
+| `GL_POINTS`                   | `points`              | geometry; fragment  |
+| `GL_LINES`                    | `lines`               | geometry; fragment  |
+| `GL_LINE_STRIP`               | `lines`               | geometry; fragment  |
+| `GL_LINE_LOOP`                | `lines`               | geometry; fragment  |
+| `GL_LINES_ADJACENCY`          | `lines_adjacency`     | geometry            |
+| `GL_LINE_STRIP_ADJACENCY`     | `lines_adjacency`     | geometry            |
+| `GL_TRIANGLES`                | `triangles`           | geometry; fragment  |
+| `GL_TRIANGLE_STRIP`           | `triangles`           | geometry; fragment  |
+| `GL_TRIANGLE_FAN`             | `triangles`           | geometry; fragment  |
+| `GL_TRIANGLES_ADJACENCY`      | `triangles_adjacency` | geometry            |
+| `GL_TRIANGLE_STRIP_ADJACENCY` | `triangles_adjacency` | geometry            |
+| `GL_PATCHES`                  | `patches`             | tesellation control |
 
 아래는 점, 선, 삼각형으로 구할 수 있는 예입니다. 인접 정보가 있는 프리미티브의 경우, 실선은 주 프리미티브를 나타내고 점선은 연결된 인접 버텍스를 나타냅니다. 그래픽스에서 순서에 주의하세요. 모든 프리미티브는 반시계 방향입니다.
 
@@ -42,8 +42,9 @@
 
 패치의 기하학적 해석(geometrical interpretation)은 선형이 아니므로 여기서 다루지 않습니다. 패치에 대한 자세한 내용은 테셀레이션 장에서 다룹니다.
 
-|[목차](../README.md)|이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md)|다음: 테셀레이션|
-|:--|--:|--:|
+| [목차](../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
+| :------------------- | -------------------------------------------------------------: | --------------------------------------------------------: |
 
 ## 출처
+
 http://www.lighthouse3d.com/tutorials/glsl-tutorial/primitive-assembly/
