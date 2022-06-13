@@ -1,6 +1,6 @@
 # GLSL Tutorial - 테셀레이션
 
-| [목차](../README.md) | 이전: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) | 다음: [지오메트리 셰이더](../05_geometry_shader/05_geometry_shader.md) |
+| [목차](../../README.md) | 이전: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) | 다음: [지오메트리 셰이더](../05_geometry_shader/05_geometry_shader.md) |
 | :------------------- | -----------------------------------------------------------------------------: | ----------------------: |
 
 테셀레이션은 패치를 입력으로 받고 점, 선, 삼각형 형태의 새 프리미티브를 생성하는 그래픽스 파이프라인의 단계입니다.
@@ -37,11 +37,11 @@ glPatchParameteri(GL_PATCH_DEFAULT_INNER_LEVEL, myDefaultInnerLevel);
 
 버텍스가 계산된 후에 테셀레이션 레벨이 설정되면 두 번째 단계인 프리미티브 제너레이션으로 갈 준비가 된 것 입니다. 두 번째 단계는 고정함수이며 패치 내부에서 새 버텍스의 실제 생성을 담당합니다. 그러나 이 단계는 패치에 대한 정보가 없으며 대신에 다음과 같은 좌표를 가진 템플릿 패치에서 작동합니다:
 
-<p align="center"><img src="../images/04_tessellation/04_tessellation.png"></p>
+<p align="center"><img src="../../images/04_tessellation/04_tessellation.png"></p>
 
 테셀레이션 레벨은 위와 같이 특정 영역이나 모서리에 영향을 미치도록 정의됩니다.
 
-| [목차](../README.md) | 이전: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) | 다음: [지오메트리 셰이더](../05_geometry_shader/05_geometry_shader.md) |
+| [목차](../../README.md) | 이전: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) | 다음: [지오메트리 셰이더](../05_geometry_shader/05_geometry_shader.md) |
 | :------------------- | -----------------------------------------------------------------------------: | ----------------------: |
 
 ## 출처

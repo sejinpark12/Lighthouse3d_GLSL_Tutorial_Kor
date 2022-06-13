@@ -1,9 +1,9 @@
 # GLSL Tutorial - 프리미티브 어셈블리
 
-| [목차](../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
+| [목차](../../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
 | :------------------- | -------------------------------------------------------------: | --------------------------------------------------------: |
 
-<p align="center"><img src="../images/03_primitive_assembly/03_primitive_assembly.png"></p>
+<p align="center"><img src="../../images/03_primitive_assembly/03_primitive_assembly.png"></p>
 
 프리미티브 어셈블리 단계에서는 버텍스 셰이더로부터 처리된 버텍스와 어플리케이션에서 OpenGL `glDraw*` 류의 명령어에 의해 지정된 버텍스 연결성 정보(vertex connectivity information)를 입력으로 받습니다.
 
@@ -15,7 +15,7 @@
 
 예를 들어 GL_TRIANGLES 프리미티브 타입이라고 한다면 다음과 같은 그림으로 나타낼 수 있습니다:
 
-<p align="center"><img src="../images/03_primitive_assembly/03_primitive_assembly_2.png"></p>
+<p align="center"><img src="../../images/03_primitive_assembly/03_primitive_assembly_2.png"></p>
 
 가능한 입력 연결성 정보 설정, 생성된 출력, 이를 사용하는 셰이더를 다음 표에서 보여줍니다.
 
@@ -36,13 +36,13 @@
 
 아래는 점, 선, 삼각형으로 구할 수 있는 예입니다. 인접 정보가 있는 프리미티브의 경우, 실선은 주 프리미티브를 나타내고 점선은 연결된 인접 버텍스를 나타냅니다. 그래픽스에서 순서에 주의하세요. 모든 프리미티브는 반시계 방향입니다.
 
-<p align="center"><img src="../images/03_primitive_assembly/03_primitive_assembly_3.png"></p>
+<p align="center"><img src="../../images/03_primitive_assembly/03_primitive_assembly_3.png"></p>
 
-<p align="center"><img src="../images/03_primitive_assembly/03_primitive_assembly_4.png"></p>
+<p align="center"><img src="../../images/03_primitive_assembly/03_primitive_assembly_4.png"></p>
 
 패치의 기하학적 해석(geometrical interpretation)은 선형이 아니므로 여기서 다루지 않습니다. 패치에 대한 자세한 내용은 테셀레이션 장에서 다룹니다.
 
-| [목차](../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
+| [목차](../../README.md) | 이전: [버텍스 셰이더](../02_vertex_shader/02_vertex_shader.md) | 다음: [테셀레이션](../04_tessellation/04_tessellation.md) |
 | :------------------- | -------------------------------------------------------------: | --------------------------------------------------------: |
 
 ## 출처

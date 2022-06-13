@@ -1,9 +1,9 @@
 # GLSL Tutorial - 버텍스 셰이더
 
-| [목차](../README.md) | 이전: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md) | 다음: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) |
+| [목차](../../README.md) | 이전: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md) | 다음: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) |
 | :------------------- | ------------------------------------------------------------------: | -----------------------------------------------------------------------------: |
 
-<p align="center"><img src="../images/02_vertex_shader/02_vertex_shader.png"></p>
+<p align="center"><img src="../../images/02_vertex_shader/02_vertex_shader.png"></p>
 
 버텍스 셰이더는 한 번에 한 버텍스 씩, 각 버텍스에서 실행됩니다. 셰이더에는 그래픽 프리미티브를 구성하는 다른 버텍스에 대한 정보가 없으며, 버텍스가 속한 프리미티브의 타입이 무엇인지 모릅니다. 셰이더는 하나의 입력 버텍스 당 하나의 출력 버텍스를 내보냅니다.
 각 버텍스는 사용자가 정의한 입력 속성(input attribute) 세트를 가집니다. 예를 들어, 위치, 법선 벡터, 텍스쳐 좌표와 같은 것들이 있습니다. 또한 버텍스 셰이더에서는 uniform 변수에 접근할 수 있습니다. uniform 변수는 드로우콜 동안 모든 버텍스에서 읽기 전용 전역 변수처럼 동작합니다.
@@ -74,7 +74,7 @@ void main()
 
 버텍스 데이터가 strip이 아닌 경우, strip 또는 strip 세트로 변환될 수 있습니다. NVIDIA에서 이와 같은 처리를 수행하는 NVTriStrip라는 툴을 만들었습니다. 이 툴은 인덱스의 배열을 받고 가능한 한 큰 strip의 생성을 시도합니다. 다른 접근법으로, Tom Forsyth 알고리즘(LRU 알고리즘을 사용하는 버텍스 캐시 기반)은 GL_TRIANGLES 모드를 유지한 채로 히트를 증가시키기 위해 인덱스 데이터를 재구성합니다. Tootle(Triangle Order Optimization Tool(삼각형 순서 최적화 툴))는 모델 최적화, 픽셀 오버드로우 감소, post-transform 캐시와 vertex prefetch 캐시 히트를 증가시키는 AMD 툴입니다. 후자의 개선은 버텍스 데이터 자체를 재구성하여 삼각형의 버텍스가 메모리 상에서 서로 가깝게하여 달성됩니다. Adrian Stone은 여러 알고리즘에 대해 논의하고 테스트한 [글](http://gameangst.com/?p=9)을 작성했습니다. Ignacio Castaño는 그리드에 주목하여 [글](http://www.ludicon.com/castano/blog/2009/02/optimal-grid-rendering/)을 썼습니다.
 
-| [목차](../README.md) | 이전: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md) | 다음: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) |
+| [목차](../../README.md) | 이전: [간략한 파이프라인 다이어그램](../01_pipeline/01_pipeline.md) | 다음: [프리미티브 어셈블리](../03_primitive_assembly/03_primitive_assembly.md) |
 | :------------------- | ------------------------------------------------------------------: | -----------------------------------------------------------------------------: |
 
 ## 출처

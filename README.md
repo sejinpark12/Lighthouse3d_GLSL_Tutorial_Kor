@@ -25,11 +25,11 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 
 ### 그래픽스 파이프라인
 
-- [간략한 파이프라인 다이어그램](./01_pipeline/01_pipeline.md)
-- [버텍스 셰이더](./02_vertex_shader/02_vertex_shader.md)
-- [프리미티브 어셈블리](./03_primitive_assembly/03_primitive_assembly.md)
-- [테셀레이션 셰이더](./04_tessellation/04_tessellation.md)
-- [지오메트리 셰이더](./05_geometry_shader/05_geometry_shader.md)
+- [간략한 파이프라인 다이어그램](./tutorials/01_pipeline/01_pipeline.md)
+- [버텍스 셰이더](./tutorials/02_vertex_shader/02_vertex_shader.md)
+- [프리미티브 어셈블리](./tutorials/03_primitive_assembly/03_primitive_assembly.md)
+- [테셀레이션 셰이더](./tutorials/04_tessellation/04_tessellation.md)
+- [지오메트리 셰이더](./tutorials/05_geometry_shader/05_geometry_shader.md)
 - 지오메트리 세이더 예제
 - 래스터라이제이션과 보간
 - 프레그먼트 셰이더
