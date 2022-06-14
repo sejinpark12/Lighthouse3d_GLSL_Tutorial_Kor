@@ -1,9 +1,9 @@
 # GLSL Tutorial - 지오메트리 셰이더
 
 | [목차](../../README.md) | 이전: [테셀레이션](../04_tessellation/04_tessellation.md) | 다음: 지오메트리 셰이더 예제 |
-| :------------------- | -----------------------------------------------------------------------------: | ----------------------: |
+| :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
-<p align="center"><img src="../../images/05_geometry_shader/05_geometry_shader1.png" width="600"></p>
+<p align="center"><img src="../../images/05_geometry_shader/05_geometry_shader1.png" width="700"></p>
 
 지오메트리 셰이더는 OpenGL 3.2부터 추가된 기능입니다.
 
@@ -23,7 +23,7 @@
 
 지오메트리 셰이더의 입력은 [프리미티브 어셈블리 색션](../03_primitive_assembly/03_primitive_assembly.md)에 설명된 대로 OpenGL draw 명령어의 프리미티브와 일치해야 합니다. 인접 정보를 포함한 `lines_adjacency` 또는 `triangle_adjacency` 프리미티브를 받는 경우, 버텍스의 순서는 다음과 같습니다:
 
-<p align="center"><img src="../../images/05_geometry_shader/05_geometry_shader2.png" width="600"></p>
+<p align="center"><img src="../../images/05_geometry_shader/05_geometry_shader2.png" width="700"></p>
 
 사용가능한 출력 프리미티브의 타입은 다음과 같습니다:
 
@@ -53,7 +53,7 @@ layout (line_strip, max_vertices = 4) out;
 `max_vertices`는 지오메트리 셰이더가 출력할 버텍스의 수를 제한합니다. 정말 그렇습니다! 정해진 수보다 더 많은 버텍스를 출력하려고 한다면, 초과된 버텍스는 다음 파이프라인으로 보내지지 않을 것입니다.
 
 | [목차](../../README.md) | 이전: [테셀레이션](../04_tessellation/04_tessellation.md) | 다음: 지오메트리 셰이더 예제 |
-| :------------------- | -----------------------------------------------------------------------------: | ----------------------: |
+| :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
 ## 출처
 
