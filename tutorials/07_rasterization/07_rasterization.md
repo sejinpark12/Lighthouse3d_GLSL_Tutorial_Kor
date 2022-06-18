@@ -1,6 +1,6 @@
 # GLSL Tutorial - 레스터라이제이션과 보간
 
-| [목차](../../README.md) | 이전: 지오메트리 셰이더 예제 | 다음: 프레그먼트 셰이더 |
+| [목차](../../README.md) | 이전: [지오메트리 셰이더 예제](../06_geometry_shader_example/06_geometry_shader_example.md) | 다음: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) |
 | :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
 <p align="center"><img src="../../images/07_rasterization/07_rasterization1.png" width="700"></p>
@@ -73,7 +73,7 @@ $$0 \leq c \leq 1$$
 
 <p align="center"><img src="../../images/07_rasterization/07_rasterization4.png" width="300"></p>
 
-| [목차](../../README.md) | 이전: 지오메트리 셰이더 예제 | 다음: 프레그먼트 셰이더 |
+| [목차](../../README.md) | 이전: [지오메트리 셰이더 예제](../06_geometry_shader_example/06_geometry_shader_example.md) | 다음: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) |
 | :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
 ## 출처

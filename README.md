@@ -32,7 +32,7 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 - [지오메트리 셰이더](./tutorials/05_geometry_shader/05_geometry_shader.md)
 - 지오메트리 세이더 예제
 - [래스터라이제이션과 보간](./tutorials/07_rasterization/07_rasterization.md)
-- 프레그먼트 셰이더
+- [프레그먼트 셰이더](./tutorials/08_fragment_shader/08_fragment_shader.md)
 
 ### OpenGL 설정
 
