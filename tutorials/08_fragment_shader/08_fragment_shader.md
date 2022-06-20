@@ -1,6 +1,6 @@
 # GLSL Tutorial - 프레그먼트 셰이더
 
-| [목차](../../README.md) | 이전: [레스터라이제이션과 보간](../07_rasterization/07_rasterization.md) | 다음: 서론 |
+| [목차](../../README.md) | 이전: [레스터라이제이션과 보간](../07_rasterization/07_rasterization.md) | 다음: [OpenGL 설정 서론](../09_opengl_setup/09_opengl_setup.md) |
 | :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
 <p align="center"><img src="../../images/08_fragment_shader/08_fragment_shader1.png" width="700"></p>
@@ -76,7 +76,7 @@ layout(location = 0) out vec4 colorOut;
 
 framebuffer objects를 사용할 경우, 각 출력은 렌더 타겟(또는 텍스처) 출력에 맞는 location을 가집니다. 디폴트 framebuffer를 사용한다면, location은 오로지 0입니다.
 
-| [목차](../../README.md) | 이전: [레스터라이제이션과 보간](../07_rasterization/07_rasterization.md) | 다음: 서론 |
+| [목차](../../README.md) | 이전: [레스터라이제이션과 보간](../07_rasterization/07_rasterization.md) | 다음: [OpenGL 설정 서론](../09_opengl_setup/09_opengl_setup.md) |
 | :---------------------- | --------------------------------------------------------: | ---------------------------: |
 
 
