@@ -5,7 +5,7 @@
 
 다음 그림은 셰이더 프로그램을 준비하고 진행하는데 필요한 단계들을 나타냅니다.
 
-<p align="center"><img src="../../images/11_creating_a_program/11_creating_a_program_kor.png" width="400"></p>
+<p align="center"><img src="../../images/11_creating_a_program/11_creating_a_program_kor.png" width="300"></p>
 
 먼저 프로그램 컨테이너로 동작할 객체를 생성합니다. 객체를 생성하는 함수는 컨테이너의 핸들을 반환합니다.
 
