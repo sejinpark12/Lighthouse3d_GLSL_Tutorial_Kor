@@ -21,7 +21,7 @@
 
 괄호 안의 숫자는 프리미티브 당 버텍스의 수를 나타냅니다.
 
-지오메트리 셰이더의 입력은 [프리미티브 어셈블리 색션](../03_primitive_assembly/03_primitive_assembly.md)에 설명된 대로 OpenGL draw 명령어의 프리미티브와 일치해야 합니다. 인접 정보를 포함한 `lines_adjacency` 또는 `triangle_adjacency` 프리미티브를 받는 경우, 버텍스의 순서는 다음과 같습니다:
+지오메트리 셰이더의 입력은 [프리미티브 어셈블리 색션](../03_primitive_assembly/03_primitive_assembly.md)에 설명된 대로 OpenGL draw 명령어의 프리미티브와 일치해야 합니다. 인접 정보를 포함한 `lines_adjacency` 또는 `triangles_adjacency` 프리미티브를 받는 경우, 버텍스의 순서는 다음과 같습니다:
 
 <p align="center"><img src="../../images/05_geometry_shader/05_geometry_shader2.png" width="700"></p>
 
@@ -31,7 +31,7 @@
 - `line_strip`
 - `triangle_strip`
 
-입력과 출력은 일치하지 않아도 됩니다. 예를 들어, 지오메트리 셰이더는 `triangle`를 받아서 `point` 또는 `line_strip`을 출력할 수 있습니다.
+입력과 출력은 일치하지 않아도 됩니다. 예를 들어, 지오메트리 셰이더는 `triangles`를 받아서 `points` 또는 `line_strip`을 출력할 수 있습니다.
 
 지오메트리 셰이더의 출력은 0개 이상의 프리미티브일 수 있습니다. 예를 들어, triangle strip을 출력한다면, 지오메트리 셰이더는 각각 두 개의 triangle을 가진 strip 세 개를 출력할 수 있습니다. 입력 프리미티브는 셰이더 실행 후에 항상 제거됩니다.
 
