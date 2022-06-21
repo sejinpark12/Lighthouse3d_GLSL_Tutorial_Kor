@@ -1,6 +1,6 @@
 # GLSL Tutorial - OpenGL 설정
 
-| [목차](../../README.md) | 이전: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) | 다음: 셰이더 생성 |
+| [목차](../../README.md) | 이전: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) | 다음: [셰이더 생성](../10_creating_a_shader/10_creating_a_shader.md) |
 | :---------------------- | ---------------------------------------------------------------------: | ----------------: |
 
 이번 색션에서는 로드, 컴파일, 링크, 실행 준비를 위한 셰이더 설정 방법을 배웁니다. 아직 여러분만의 셰이더를 작성할 준비가 되지 않았다면 GLSL 최신 버전을 다루는 자료가 적긴 하지만 인터넷에서 셰이더를 얻을 수 있는 많은 사이트가 있습니다. 나중에 튜토리얼에서 제공되는 예시 또한 시도할 수 있습니다.
@@ -37,7 +37,7 @@ OpenGL에 관한 한 어플리케이션을 설정하는 것은 C 프로그램을
 
 <p align="center"><img src="../../images/09_opengl_setup/09_opengl_setup_kor.png" width="700"></p>
 
-| [목차](../../README.md) | 이전: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) | 다음: 셰이더 생성 |
+| [목차](../../README.md) | 이전: [프레그먼트 셰이더](../08_fragment_shader/08_fragment_shader.md) | 다음: [셰이더 생성](../10_creating_a_shader/10_creating_a_shader.md) |
 | :---------------------- | ---------------------------------------------------------------------: | ----------------: |
 
 ## 출처
