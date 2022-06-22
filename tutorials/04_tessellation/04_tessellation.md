@@ -12,7 +12,7 @@
 다른 OpenGL 프리미티브 타입과 다르게, 사용자가 패치의 버텍스 수를 정의할 수 있습니다.
 다음과 같이 `glPatchParameteri` 함수는 드로우 콜에서 상수로 유지되는 해당 값을 설정하는데 사용됩니다:
 
-```glsl
+```c
 glPatchParameteri(GL_PATCH_VERTICES, verticesPerPatch);
 ```
 
@@ -32,7 +32,7 @@ glPatchParameteri(GL_PATCH_VERTICES, verticesPerPatch);
 
 다음과 같이 어플리케이션은 값을 설정하고 수정할 수 있습니다:
 
-```glsl
+```c
 glPatchParameteri(GL_PATCH_DEFAULT_OUTER_LEVEL, myDefaultOuterLevel);
 glPatchParameteri(GL_PATCH_DEFAULT_INNER_LEVEL, myDefaultInnerLevel);
 ```
