@@ -1,6 +1,6 @@
 # GLSL Tutorial - 데이터 타입
 
-| [목차](../../README.md) | 이전: 마무리 | 다음: 선언과 함수 |
+| [목차](../../README.md) | 이전: 마무리 | 다음: [선언과 함수](../16_statements_and_functions/16_statements_and_functions.md) |
 | :---------------------- | -----------: | ----------------: |
 
 GLSL에서 사용 가능한 단순 데이터 타입은 다음과 같습니다:
@@ -150,9 +150,8 @@ d1.direction = vec3(1.0, 1.0, 1.0);
 const int gravity = 9.8;
 ```
 
-| [목차](../../README.md) | 이전: 마무리 | 다음: 선언과 함수 |
+| [목차](../../README.md) | 이전: 마무리 | 다음: [선언과 함수](../16_statements_and_functions/16_statements_and_functions.md) |
 | :---------------------- | -----------: | ----------------: |
-
 ## 출처
 
 http://www.lighthouse3d.com/tutorials/glsl-tutorial/data-types/
