@@ -47,11 +47,11 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 
 - [데이터 타입](./tutorials/15_data_types/15_data_types.md)
 - [구문과 함수](./tutorials/16_statements_and_functions/16_statements_and_functions.md)
-- 서브루틴
+- [서브루틴](./tutorials/17_subroutines/17_subroutines.md)
 
 ### 어플리케이션->셰이더 통신
 
-- 서론
+- 어플리케이션->셰이더 통신 서론
 - Attribute 변수
 - Uniform 변수
 - Uniform 블록
