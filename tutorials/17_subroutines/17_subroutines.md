@@ -1,6 +1,6 @@
 # GLSL Tutorial - 서브루틴
 
-| [목차](../../README.md) | 이전: [구문과 함수](../16_statements_and_functions/16_statements_and_functions.md) | 다음: 어플리케이션->셰이더 통신 서론 |
+| [목차](../../README.md) | 이전: [구문과 함수](../16_statements_and_functions/16_statements_and_functions.md) | 다음: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) |
 | :---------------------- | ---------------------------------------------------------------------------------: | -----------------------------------: |
 
 서브루틴(subroutine)은 프로그램을 다시 빌드하지 않고 셰이더 동작의 동적 구성(dynamic configuration)을 허용하는 OpenGL 메커니즘입니다.
@@ -208,7 +208,7 @@ Compatible Subroutines:
     1 - redColor
 ```
 
-| [목차](../../README.md) | 이전: [구문과 함수](../16_statements_and_functions/16_statements_and_functions.md) | 다음: 어플리케이션->셰이더 통신 서론 |
+| [목차](../../README.md) | 이전: [구문과 함수](../16_statements_and_functions/16_statements_and_functions.md) | 다음: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) |
 | :---------------------- | ---------------------------------------------------------------------------------: | -----------------------------------: |
 
 ## 출처
