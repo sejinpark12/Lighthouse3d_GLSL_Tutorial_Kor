@@ -52,9 +52,9 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 ### 어플리케이션->셰이더 통신
 
 - [어플리케이션->셰이더 통신 서론](./tutorials/18_communication_app_shader/18_communication_app_shader.md)
-- Attribute 변수
-- Uniform 변수
-- Uniform 블록
+- [attribute 변수](./tutorials/19_attribute_variables/19_attribute_variables.md)
+- uniform 변수
+- uniform 블록
 
 ### 셰이더 간 통신 - 인터페이스
 
