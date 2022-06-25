@@ -66,6 +66,97 @@ vertexLoc = glGetAttribLocation(p, "position");
 
 위의 코드가 실행되면 `vertexLoc`에 "position" attribute의 location이 저장됩니다.
 
+이제 attribute가 _어디에_ 있는지 알고 있고, 배열을 정의하여 attribute의 값들이 어떻게 그래픽스 파이프라인으로 전송되는지 알아볼 것입니다.
+
+attribute들을 정의하기 위해서는 먼저 배열에 데이터를 저장합니다. attribute들을 하나의 배열에 끼워 넣을 수도 있지만 여기서는 각 attribute에 대한 개별적인 배열을 생성할 것입니다.
+
+```cpp
+// 삼각형 세트의 데이터
+float pos[] = {-1.0f, 0.0f, -5.0f, 1.0f,
+                1.0f, 0.0f, -5.0f, 1.0f,
+                0.0f, 2.0f, -5.0f, 1.0f, ...};
+
+float textureCoord[] = { ... };
+
+float normal[] = { ... };
+```
+
+모든 배열에 대한 인덱스 i를 고려하여 버텍스 i에 대한 attribute를 얻습니다.
+
+인덱스 배열을 정의하면 버텍스를 자유롭게 연결하여 프리미티브를 생성할 수 있습니다. 그러므로 인덱스 배열을 다음과 같이 추가합니다:
+
+```cpp
+unsigned integer index[] = {0, 1, 2, ...};
+```
+
+인덱스 배열이 없다면 셰이더는 버텍스들을 순차적으로 처리할 것입니다.
+
+각 attribute는 OpenGL 버퍼에 저장됩니다. 이 버퍼 세트는 OpenGL **Vertex Array Object** 또는 VAO의 일부분입니다.
+
+우선 VAO를 생성하고 바인딩합니다:
+
+```cpp
+GLuint vao;
+glGenVertexArrays(1, &vao);
+glBindVertexArray(vao);
+```
+
+각각의 개별적인 attribute에 대해서, 다음의 과정을 진행합니다: 먼저 버퍼를 생성하고 바인딩하고 데이터를 넣고 마지막으로 그래픽스 파이프라인의 입력 attribute와 연결합니다.
+
+예를 들어, pos 배열과 "position" attribute를 가정하면 다음과 같습니다:
+
+```cpp
+GLuint buffer;
+glGenBuffers(1, &buffer);
+
+// 프로그램 p에서 "position" attribute의 location을 구합니다.
+vertexLoc = glGetAttribLocation(p, "position");
+
+// position에 대한 버퍼를 바인딩합니다.
+// attribute를 공급하는데 사용하는 버퍼의 타입은 GL_ARRAY_BUFFER입니다.
+glBindBuffer(GL_ARRAY_BUFFER, buffer);
+
+// buffer를 공급합니다. 그리고 OpenGL에게 버퍼의 데이터를 변경할 계획이 없으며(STATIC) 드로잉(DRAW)에 사용할 것임을 알립니다.
+glBufferData(GL_ARRAY_BUFFER, sizeof(pos), pos, GL_STATIC_DRAW);
+
+// 해당 location에서 attribute를사용합니다.
+glEnableVertexAttribArray(vertexLoc);
+
+// OpenGL에게 배열에 담긴 데이터의 정보를 알립니다:
+// 각 버텍스에 대한 4개의 float 타입값이 들어있습니다.
+glVertexAttribPointer(vertexLoc, 4, GL_FLOAT, 0, 0, 0);
+```
+
+다른 배열들도 위와 비슷한 방법으로 설정합니다. `normal` 배열은 버텍스 당 3개의 float 값을 가지고 `textureCoord` 배열은 2개의 값을 가진다는 것만 다릅니다.
+
+인덱스 배열의 경우, 접근이 더 간단하며 주요 차이점은 버퍼의 타입입니다:
+
+```cpp
+GLuint buffer;
+glGenBuffers(1, &buffer);
+
+// 위치에 대한 버퍼를 바인딩합니다.
+glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, buffer);
+// 버퍼에 데이터를 복사합니다.
+glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(index), index, GL_STATIC_DRAW);
+```
+
+렌더링 함수에서 OpenGL에게 위의 정의된 지오메트리를 그릴 것을 요청합니다. 이러한 목적으로 인덱스 버퍼를 포함하는 VAO를 다음과 같이 사용할 수 있습니다: 
+
+```cpp
+glUseProgram(p);
+glBindVertexArray(vao);
+glDrawElements(GL_TRIANGLES, index.size(), GL_UNSIGNED_INT, NULL);
+```
+
+또는, 인덱스가 없는 VAO의 경우는:
+
+```cpp
+glUseProgram(p);
+glBindVertexArray(vao);
+glDrawArrays(GL_TRIANGLES, 0, count);
+```
+
 | [목차](../../README.md) | 이전: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) | 다음: uniform 변수 |
 | :---------------------- | ----------------------------------------------------------------------------------------------------: | -----------------: |
 
