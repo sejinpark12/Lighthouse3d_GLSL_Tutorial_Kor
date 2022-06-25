@@ -1,6 +1,6 @@
 # GLSL Tutorial - attribute 변수
 
-| [목차](../../README.md) | 이전: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) | 다음: uniform 변수 |
+| [목차](../../README.md) | 이전: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) | 다음: [uniform 변수](../20_uniform_variables/20_uniform_variables.md) |
 | :---------------------- | ----------------------------------------------------------------------------------------------------: | -----------------: |
 
 이전 색션에서 말했던대로, 버텍스는 그래픽스 파이프라인에 공급되는 attribute를 가집니다. 오브젝트를 그리기 위해서는 오브젝트의 버텍스들을 지정해야 하고 면을 정의하기 위해 버텍스가 연결되는 방법을 지정해야 합니다. 또한 버텍스는 위치, 법선 벡터, 텍스처 좌표를 attribute로 가집니다.
@@ -157,8 +157,9 @@ glBindVertexArray(vao);
 glDrawArrays(GL_TRIANGLES, 0, count);
 ```
 
-| [목차](../../README.md) | 이전: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) | 다음: uniform 변수 |
+| [목차](../../README.md) | 이전: [어플리케이션->셰이더 통신 서론](../18_communication_app_shader/18_communication_app_shader.md) | 다음: [uniform 변수](../20_uniform_variables/20_uniform_variables.md) |
 | :---------------------- | ----------------------------------------------------------------------------------------------------: | -----------------: |
+
 
 ## 출처
 
