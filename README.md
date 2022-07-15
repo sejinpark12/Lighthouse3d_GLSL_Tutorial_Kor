@@ -62,7 +62,7 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 
 ### 예제로 가기 전에 고려해야할 몇 가지 사항들
 
-- 공간과 행렬
+- [공간과 행렬](./tutorials/23_spaces_and_matrices/23_spaces_and_matrices.md)
 - 보간 문제
 - OpenGL 스켈레톤
 
