@@ -88,7 +88,7 @@ void main() {
 
 <p align="center"><img src="../../images/35_texturing_with_images/texReplaceModulate.png"  width="700"></p>
 
-텍스처 색상은 픽셀의 메터리얼과 조합될 수 있습니다. 예를 들어, 텍스처링이 적용된 디렉셔널 라이트 셰이더([여기](http://www.lighthouse3d.com/tutorials/glsl-tutorial/directional-lights-per-pixel/)를 보세요)는 다음과 같이 작성할 수 있습니다:
+텍스처 색상은 픽셀의 머티리얼과 조합될 수 있습니다. 예를 들어, 텍스처링이 적용된 디렉셔널 라이트 셰이더([여기](http://www.lighthouse3d.com/tutorials/glsl-tutorial/directional-lights-per-pixel/)를 보세요)는 다음과 같이 작성할 수 있습니다:
 
 버텍스 셰이더: 텍스처 좌표가 버텍스 속성으로 추가됩니다. 텍스처 좌표는 버텍스 셰이더를 그냥 통과합니다.
 
