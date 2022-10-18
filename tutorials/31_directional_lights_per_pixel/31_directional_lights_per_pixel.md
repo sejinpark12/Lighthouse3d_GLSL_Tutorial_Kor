@@ -1,6 +1,6 @@
 # GLSL Tutorial - 픽셀별 디렉셔널 라이트
 
-| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 2](./../30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md) | 다음: 포인트 라이트|
+| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 2](./../30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md) | 다음: [포인트 라이트](./../32_point_lights/32_point_lights.md)|
 | :---------------------- | -------------------: | --------------: |
 
 이전 섹션에서는 고러드 셰이딩에 대해 공부했습니다. 고러드 셰이딩은 픽셀별로 색상을 계산하고, 색상을 보간하여 프레그먼트에 보냅니다.
@@ -101,7 +101,7 @@ void main() {
 
 <p align="center"><img src="../../images/31_directional_lights_per_pixel/specular3.png"  width="600"></p>
 
-| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 2](./../30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md) | 다음: 포인트 라이트|
+| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 2](./../30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md) | 다음: [포인트 라이트](./../32_point_lights/32_point_lights.md)|
 | :---------------------- | -------------------: | --------------: |
 
 ## 출처

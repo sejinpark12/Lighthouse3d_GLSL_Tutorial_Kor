@@ -1,6 +1,6 @@
 # GLSL Tutorial - 텍스처 좌표 다루기
 
-| [목차](../../README.md) | 이전: 스팟 라이트 | 다음: [이미지 텍스처링](./../35_texturing_with_images/35_texturing_with_images.md) |
+| [목차](../../README.md) | 이전: [스팟 라이트](./../33_spotlights/33_spotlights.md) | 다음: [이미지 텍스처링](./../35_texturing_with_images/35_texturing_with_images.md) |
 | :---------------------- | -------------------: | --------------: |
 
 텍스처 좌표는 표면에 이미지를 어떻게 매핑하는지 정의하는데 주로 사용됩니다. 그러나 텍스처 좌표는 매핑 작업에 국한되어있지 않습니다. 텍스처 좌표 그 자체로 모델의 색상으로 사용될 수 있습니다. 이제부터 텍스처 좌표를 자체적으로 사용하는 몇 가지 예시를 살펴볼 것입니다.
@@ -198,7 +198,7 @@ void main() {
 }
 ```
 
-| [목차](../../README.md) | 이전: 스팟 라이트 | 다음: [이미지 텍스처링](./../35_texturing_with_images/35_texturing_with_images.md) |
+| [목차](../../README.md) | 이전: [스팟 라이트](./../33_spotlights/33_spotlights.md) | 다음: [이미지 텍스처링](./../35_texturing_with_images/35_texturing_with_images.md) |
 | :---------------------- | -------------------: | --------------: |
 
 ## 출처

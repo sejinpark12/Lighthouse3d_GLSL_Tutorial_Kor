@@ -77,8 +77,8 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 - [버텍스별 디렉셔널 라이트 1](./tutorials/29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md)
 - [버텍스별 디렉셔널 라이트 2](./tutorials/30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md)
 - [픽셀별 디렉셔널 라이트](./tutorials/31_directional_lights_per_pixel/31_directional_lights_per_pixel.md)
-- 포인트 라이트
-- 스팟 라이트
+- [포인트 라이트](./tutorials/32_point_lights/32_point_lights.md)
+- [스팟 라이트](./tutorials/33_spotlights/33_spotlights.md)
 - [텍스쳐 좌표 다루기](./tutorials/34_texture_coordinates/34_texture_coordinates.md)
   - 텍스쳐 좌표는 이미지를 표면 위에 매핑하는 방법을 정의하는데 주로 사용됩니다. 그러나 텍스쳐 좌표는 매핑을 수행하는데만 국한되지 않습니다. 텍스쳐 좌표 자체로 모델에 색상을 칠할 수 있습니다. 여기서 텍스쳐 좌표 자체를 사용하는 몇 가지 예제를 살펴보고 `mix`와 `smoothstep`과 같은 새로운 GLSL 함수에 대해 배웁니다.
 - [이미지 텍스쳐링](./tutorials/35_texturing_with_images/35_texturing_with_images.md)
