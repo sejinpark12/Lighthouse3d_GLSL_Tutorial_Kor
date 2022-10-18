@@ -150,7 +150,7 @@ void main() {
 
 프레그먼트 셰이더는 동일합니다.
 
-다음 쳅터에서는 머티리얼의 specualr 항에 대해 알아보겠습니다.
+다음 섹션에서는 머티리얼의 specualr 항에 대해 알아보겠습니다.
 
 | [목차](../../README.md) | 이전: [라이팅](./../28_lighting/28_lighting.md) | 다음: [버텍스별 디렉셔널 라이트 2](./../30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md) |
 | :---------------------- | -------------------: | --------------: |
