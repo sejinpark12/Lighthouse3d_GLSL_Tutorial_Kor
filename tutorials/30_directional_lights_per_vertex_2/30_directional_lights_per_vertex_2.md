@@ -1,6 +1,6 @@
 # GLSL Tutorial - 버텍스별 디렉셔널 라이트 2
 
-| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 1](./../29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md) | 다음: 픽셀별 디렉셔널 라이트|
+| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 1](./../29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md) | 다음: [픽셀별 디렉셔널 라이트](./../31_directional_lights_per_pixel/31_directional_lights_per_pixel.md)|
 | :---------------------- | -------------------: | --------------: |
 
 광택이 있는 머티리얼을 다룰 때, diffuse 색상과 다른 색상의 밝은 점을 카메라와 빛의 방향에 따라 관찰할 수 있습니다. 예를 들어 사과는 초록색이지만 빛의 색상의 밝은 점이 있습니다. 이 밝은 점은 specular highlight라고도 합니다. specular highlight는 크기가 다양하고 금속성 물체에서는 더 선명하고 플라스틱에서는 더 흐릿합니다. specular highlight의 위치와 세기는 관찰자의 위치에 따라 다양합니다.
@@ -137,7 +137,7 @@ void main() {
 
 조밀한 메쉬는 픽셀당 삼각형이 있을 때만 의미가 있는데 이는 실용적이지 않습니다. 선험적으로 각 삼각형이 얼마나 많은 픽셀을 포함하는지 알 수 없기 때문에 이러한 삼각형의 수는 실시간 렌더링에서 불가능합니다.
 
-| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 1](./../29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md) | 다음: 픽셀별 디렉셔널 라이트|
+| [목차](../../README.md) | 이전: [버텍스별 디렉셔널 라이트 1](./../29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md) | 다음: [픽셀별 디렉셔널 라이트](./../31_directional_lights_per_pixel/31_directional_lights_per_pixel.md)|
 | :---------------------- | -------------------: | --------------: |
 
 

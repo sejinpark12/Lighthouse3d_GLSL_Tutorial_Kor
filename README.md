@@ -76,7 +76,7 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
   - 컴퓨터 그래픽스에서 라이팅은 매우 중요합니다. 이 예제에서는 기초 이론과 단순한 로컬 라이팅의 구현을 다룹니다. 일반적으로 쓰이는 디렉셔널, 포인트, 스팟 라이팅 세 가지 타입의 라이팅을 고러드(Gouraud) 모델과 퐁(Phong) 셰이딩 모델을 사용하여 구현합니다.
 - [버텍스별 디렉셔널 라이트 1](./tutorials/29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md)
 - [버텍스별 디렉셔널 라이트 2](./tutorials/30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md)
-- 픽셀별 디렉셔널 라이트
+- [픽셀별 디렉셔널 라이트](./tutorials/31_directional_lights_per_pixel/31_directional_lights_per_pixel.md)
 - 포인트 라이트
 - 스팟 라이트
 - [텍스쳐 좌표 다루기](./tutorials/34_texture_coordinates/34_texture_coordinates.md)
