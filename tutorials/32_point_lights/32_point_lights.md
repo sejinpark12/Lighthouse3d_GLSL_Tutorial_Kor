@@ -5,7 +5,7 @@
 
 포인트 라이트를 다룰 때 [디렉셔널 라이트](http://www.lighthouse3d.com/tutorials/glsl-tutorial/directional-lights-per-pixel/) 와의 큰 차이점은 빛의 방향 대신에 위치를 고려한다는 것입니다. 이는 디렉셔널 라이트처럼 빛의 방향이 모든 프레그먼트/버텍스에서 일정하지 않음을 의미합니다. 그 외에는 모든 것이 디렉셔널 라이트와 같습니다. 아래 그림은 디렉셔널 라이트(왼쪽)에 의해 빛을 받는 삼각형과 포인트 라이트(오른쪽)에 의해 빛을 받는 삼각형입니다.
 
-<p align="center"><img src="../../images/32_point_lilghts/dirvspoint.png"  width="400"></p>
+<p align="center"><img src="../../images/32_point_lights/dirvspoint.png"  width="400"></p>
 
 이제부터 버텍스 셰이더는 빛의 방향 대신에 빛의 위치를 받습니다. 그리고 각 버텍스별 빛의 방향을 계산해야 합니다. 빛의 위치는 카메라 공간의 좌표라고 가정합니다. 버텍스 좌표를 카메라 공간으로 이동하면 빛의 방향 계산이 간단해집니다:
 
@@ -89,7 +89,7 @@ void main() {
 
 아래의 그림은 포인트 라이트로 빛을 받는 씬의 예입니다.
 
-<p align="center"><img src="../../images/32_point_lilghts/pointlight.png"  width="500"></p>
+<p align="center"><img src="../../images/32_point_lights/pointlight.png"  width="500"></p>
 
 | [목차](../../README.md) | 이전: [픽셀별 디렉셔널 라이트](./../31_directional_lights_per_pixel/31_directional_lights_per_pixel.md) | 다음: [스팟 라이트](./../33_spotlights/33_spotlights.md)|
 | :---------------------- | -------------------: | --------------: |
