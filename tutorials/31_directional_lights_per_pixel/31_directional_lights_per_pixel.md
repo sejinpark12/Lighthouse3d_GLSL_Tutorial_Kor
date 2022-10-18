@@ -20,7 +20,7 @@ $$Eye = Cam - point$$
 
 $point$ 는 카메라 공간에서의 빛을 받는 지점의 좌표입니다. $point$ 를 계산하기 위해서 로컬 공간의 좌표에 뷰모델 행렬을 곱해주어야 합니다. 카메라 공간에서의 카메라는 원점에 위치하므로, eye 벡터는 다음과 같이 간단하게 구할 수 있습니다:
 
-$$Eye = -m\_viewModel \times position$$
+$$Eye = -m \rule{1ex}{.4pt} viewModel \times position$$
 
 새 버텍스 셰이더입니다:
 
