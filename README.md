@@ -82,6 +82,7 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 - [텍스쳐 좌표 다루기](./tutorials/34_texture_coordinates/34_texture_coordinates.md)
   - 텍스쳐 좌표는 이미지를 표면 위에 매핑하는 방법을 정의하는데 주로 사용됩니다. 그러나 텍스쳐 좌표는 매핑을 수행하는데만 국한되지 않습니다. 텍스쳐 좌표 자체로 모델에 색상을 칠할 수 있습니다. 여기서 텍스쳐 좌표 자체를 사용하는 몇 가지 예제를 살펴보고 `mix`와 `smoothstep`과 같은 새로운 GLSL 함수에 대해 배웁니다.
 - [이미지 텍스쳐링](./tutorials/35_texturing_with_images/35_texturing_with_images.md)
+  - Images are commonly used as wallpaper applied to 3D shapes to create a variety of effects. In this section we focus on the OpenGL and GLSL typical scenario of texture usage, and explore a few new GLSL functions, such as textureSize, textureQueryLod, and textureQueryLevels.
 
 ## 출처
 
