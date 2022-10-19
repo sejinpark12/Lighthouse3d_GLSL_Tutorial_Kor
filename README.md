@@ -68,21 +68,36 @@ GLSL tutorial의 업데이트 버전입니다. 이 튜토리얼에서는 core �
 
 ### 셰이더 예제
 
-- 정육면체
-  - 튜토리얼의 첫 번째 예제입니다. 이 예제는 아주 간단하고 스크린에 지오메트리를 그리기 위한 기초만을 다룹니다. uniform 블록을 사용하고 프로젝션-뷰-모델 행렬을 사용하여 점이 어떻게 변환되는지 보여줍니다.
-- 색이 입혀진 정육면체
-  - 두 번째 예제에서는 색상을 설정하는 몇 가지 방법에 대해 이야기합니다. 버텍스 어트리뷰트로 색상을 탐색하고 uniform 변수로 색상을 설정합니다. 또한 디스플레이에 입력된 색상 또는 계산 값을 사용한 셰이더 디버깅에 대해 소개합니다.
-- [라이팅](./tutorials/28_lighting/28_lighting.md)
-  - 컴퓨터 그래픽스에서 라이팅은 매우 중요합니다. 이 예제에서는 기초 이론과 단순한 로컬 라이팅의 구현을 다룹니다. 일반적으로 쓰이는 디렉셔널, 포인트, 스팟 라이팅 세 가지 타입의 라이팅을 고러드(Gouraud) 모델과 퐁(Phong) 셰이딩 모델을 사용하여 구현합니다.
+<p><img style="float: left;"src="./images/00_readme/cube.png"  width="80"></p>
+
+정육면체 - 튜토리얼의 첫 번째 예제입니다. 이 예제는 아주 간단하고 스크린에 지오메트리를 그리기 위한 기초만을 다룹니다. uniform 블록을 사용하고 프로젝션-뷰-모델 행렬을 사용하여 점이 어떻게 변환되는지 보여줍니다.
+<br>
+
+<p><img style="float: left;"src="./images/00_readme/colored_cube.png"  width="80"></p>
+
+색이 입혀진 정육면체 - 두 번째 예제에서는 색상을 설정하는 몇 가지 방법에 대해 이야기합니다. 버텍스 어트리뷰트로 색상을 탐색하고 uniform 변수로 색상을 설정합니다. 또한 디스플레이에 입력된 색상 또는 계산 값을 사용한 셰이더 디버깅에 대해 소개합니다.
+<br>
+
+<p><img style="float: left;"src="./images/00_readme/lighting.png"  width="80"></p>
+
+[라이팅](./tutorials/28_lighting/28_lighting.md) - 컴퓨터 그래픽스에서 라이팅은 매우 중요합니다. 이 예제에서는 기초 이론과 단순한 로컬 라이팅의 구현을 다룹니다. 일반적으로 쓰이는 디렉셔널, 포인트, 스팟 라이팅 세 가지 타입의 라이팅을 고러드(Gouraud) 모델과 퐁(Phong) 셰이딩 모델을 사용하여 구현합니다.
+<br>
+
 - [버텍스별 디렉셔널 라이트 1](./tutorials/29_directional_lights_per_vertex_1/29_directional_lights_per_vertex_1.md)
 - [버텍스별 디렉셔널 라이트 2](./tutorials/30_directional_lights_per_vertex_2/30_directional_lights_per_vertex_2.md)
 - [픽셀별 디렉셔널 라이트](./tutorials/31_directional_lights_per_pixel/31_directional_lights_per_pixel.md)
 - [포인트 라이트](./tutorials/32_point_lights/32_point_lights.md)
 - [스팟 라이트](./tutorials/33_spotlights/33_spotlights.md)
-- [텍스쳐 좌표 다루기](./tutorials/34_texture_coordinates/34_texture_coordinates.md)
-  - 텍스쳐 좌표는 이미지를 표면 위에 매핑하는 방법을 정의하는데 주로 사용됩니다. 그러나 텍스쳐 좌표는 매핑을 수행하는데만 국한되지 않습니다. 텍스쳐 좌표 자체로 모델에 색상을 칠할 수 있습니다. 여기서 텍스쳐 좌표 자체를 사용하는 몇 가지 예제를 살펴보고 `mix`와 `smoothstep`과 같은 새로운 GLSL 함수에 대해 배웁니다.
-- [이미지 텍스쳐링](./tutorials/35_texturing_with_images/35_texturing_with_images.md)
-  - Images are commonly used as wallpaper applied to 3D shapes to create a variety of effects. In this section we focus on the OpenGL and GLSL typical scenario of texture usage, and explore a few new GLSL functions, such as textureSize, textureQueryLod, and textureQueryLevels.
+
+<p><img style="float: left;"src="./images/00_readme/playing_with_texture_coordinates.png"  width="80"></p>
+
+[텍스쳐 좌표 다루기](./tutorials/34_texture_coordinates/34_texture_coordinates.md) - 텍스쳐 좌표는 이미지를 표면 위에 매핑하는 방법을 정의하는데 주로 사용됩니다. 그러나 텍스쳐 좌표는 매핑을 수행하는데만 국한되지 않습니다. 텍스쳐 좌표 자체로 모델에 색상을 칠할 수 있습니다. 여기서 텍스쳐 좌표 자체를 사용하는 몇 가지 예제를 살펴보고 `mix`와 `smoothstep`과 같은 새로운 GLSL 함수에 대해 배웁니다.
+<br>
+
+<p><img style="float: left;"src="./images/00_readme/image_texturing.png"  width="80"></p>
+
+[이미지 텍스쳐링](./tutorials/35_texturing_with_images/35_texturing_with_images.md) - 일반적으로 이미지는 다양한 효과를 생성하기 위해서 3D 메시에 입혀지는 벽지처럼 사용됩니다. 이 섹션에서는 OpenGL과 GLSL의 대표적인 텍스처 사용 시나리오를 다루고 `textureSizes`, `textureQueryLod`, `textureQueryLevels` 과 같은 GLSL의 새로운 함수에 대해 알아봅니다.
+<br>
 
 ## 출처
 
