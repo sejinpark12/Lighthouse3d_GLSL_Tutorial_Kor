@@ -11,7 +11,7 @@
 
 - position: 원뿔의 꼭대기(sp)
 - spot direction: 원뿔 축의 방향을 정의하는 벡터(sd)
-- cutoff angle: 원뿔의 조리개. 각도가 방향 벡터에서 원뿔의 경계까지 측정된다고 가정($\alpha$)
+- cutoff angle: 원뿔의 조리개. 각도가 방향 벡터에서 원뿔의 경계까지 측정된다고 가정( $\alpha$ )
 
 버텍스 셰이더는 [포인트 라이트](http://www.lighthouse3d.com/tutorials/glsl-tutorial/point-lights/)와 거의 동일합니다. 아래 프레그먼트 셰이더의 light 블록을 버텍스 셰이더에 복사하면 잘 동작할 것입니다.
 
@@ -59,6 +59,8 @@ void main() {
             spec = specular * pow(intSpec, shininess);
         }
     }
+
+    colorOut = max(intensity * diffuse + spec, ambient);
 }
 ```
 
