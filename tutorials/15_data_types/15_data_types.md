@@ -27,7 +27,7 @@ GLSL에서 사용 가능한 단순 데이터 타입은 다음과 같습니다:
 - mat3, dmat3
 - mat4, dmat4
 
-또한 float형, double형에 대한 일반적인 형태의 비정방행렬(non-square matrices)도 제공됩니다:
+또한 float형, double형에 대한 일반적인 형태의 비정방행렬(non-square matrices)도 제공됩니다(수학에서 행렬의 행과 열 표기와 반대입니다(https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)#Matrices)):
 
 - mat{2,3,4}x{2,3,4} 예를 들어 mat2x4. 첫 번째 숫자가 열, 두 번째 숫자가 행.
 - dmat{2,3,4}x{2,3,4}
